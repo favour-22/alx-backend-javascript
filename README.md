@@ -1,8 +1,7 @@
-<p>
-<img width="260" height="170" src="https://www.flaticon.com/svg/static/icons/svg/541/541509.svg" align="right" >
-</p>
 
-# :colombia: 0x0E. ES6 Basics
+
+
+# 0x0E. ES6 Basics
 
 - What ES6 is
 - New features introduced in ES6
