@@ -32,9 +32,7 @@
 
 For my learning of backend web dev in Holberton School
 
-## Authors
 
----Santiago Yanguas
 
 ## Files
 
