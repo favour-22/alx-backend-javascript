@@ -24,9 +24,9 @@
 - Your code will be analyzed using the linter ESLint along with specific rules that we’ll provide
 - All of your functions must be exported
 
-## Contributing
 
--- Santiago Yanguas - Holberton Student
+
+
 
 ## Versioning
 
