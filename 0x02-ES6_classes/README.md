@@ -23,15 +23,15 @@
 
 ## Contributing
 
--- Santiago Yanguas - Holberton Student
+-- Favour-22
 
 ## Versioning
 
-For my learning of backend web dev in Holberton School
+For my learning of backend web dev in ALX
 
 ## Authors
 
----Santiago Yanguas
+--- Favour
 
 ## Files
 
