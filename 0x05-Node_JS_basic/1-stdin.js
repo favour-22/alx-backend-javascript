@@ -1,14 +1,16 @@
 process.stdout.write('Welcome to Holberton School, what is your name?\n');
 
-process.stdin.on('readable', () => {
-  const input = process.stdin.read();
-
-  if (input !== null) {
-    const name = input.trim();
-    process.stdout.write(`Your name is: ${name}`);
-  }
-});
-
-process.stdin.on('end', () => {
-  process.stdout.write('This important software is now closing\n');
-});
+if (process.stdin.isTTY) {
+  process.stdin.on('namex', (namex) => {
+    process.stdout.write(`Your name is: ${namex.toString()}`);
+    process.exit();
+  });
+} else {
+  process.stdin.on('namex', (namex) => {
+    process.stdout.write(`Your name is: ${namex.toString()}`);
+    process.exit();
+  });
+  process.on('exit', () => {
+    process.stdout.write('This important software is now closing\n');
+  });
+}
